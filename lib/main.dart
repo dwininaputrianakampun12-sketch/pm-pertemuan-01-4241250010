@@ -13,7 +13,9 @@ class HelloApp extends StatelessWidget {
       title: 'Hello Flutter',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 27, 9, 71)),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color.fromARGB(255, 27, 9, 71),
+        ),
       ),
       home: const HelloPage(),
     );
@@ -42,8 +44,8 @@ class HelloPage extends StatelessWidget {
             ),
             SizedBox(height: 8),
             Text('Nama : Dwi Nina Putri Anakampun'),
-            Text('NIM  : 4241250010'),
-            Text('Kelas: Ilmu Komputer D 2024'),
+            Text('NIM  : 4233250027'),
+            Text('Kelas: Ilmu Komputer A 2024'),
           ],
         ),
       ),
